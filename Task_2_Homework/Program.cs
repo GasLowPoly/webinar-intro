@@ -1,9 +1,14 @@
 ﻿// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
-// В связи со сложившимися жизненными и техническими обстоятельствами не имел возможности присутствовать на семинарах и выполнять домашние задания. 
-// Поскольку продлить срок сдачи было возможно только до 17 марта 20:00, выкладываю домашнее задание в виде ссылкок на гитхаб. 
-// Искренне надеюсь, что вы проверите его не ранее середины дня 18 марта. Тогда этих комментариев здесь уже не будет, а вместо них появятся срочки работающего кода. 
-// Жутко стыдно, но так вышло не по моему желанию. Спасибо за понимание. 
-// GAS. 17/03/2022 ~19:50
+Console.Clear();
+Console.WriteLine("Set any number");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.WriteLine("Set another number");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.WriteLine(a+" ? "+ b +"...");
 
-Console.WriteLine("Hello, World!");
+if (a > b) Console.WriteLine(a + " is highest number. " + b + " is lowest one");
+if (b > a) Console.WriteLine(b + " is highest number. " + a + " is lowest one");
+if (a == b) Console.WriteLine(a + " and " + b + " are the same numbers");
