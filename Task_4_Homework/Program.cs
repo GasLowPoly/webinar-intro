@@ -1,9 +1,18 @@
 ﻿// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-// В связи со сложившимися жизненными и техническими обстоятельствами не имел возможности присутствовать на семинарах и выполнять домашние задания. 
-// Поскольку продлить срок сдачи было возможно только до 17 марта 20:00, выкладываю домашнее задание в виде ссылкок на гитхаб. 
-// Искренне надеюсь, что вы проверите его не ранее середины дня 18 марта. Тогда этих комментариев здесь уже не будет, а вместо них появятся срочки работающего кода. 
-// Жутко стыдно, но так вышло не по моему желанию. Спасибо за понимание. 
-// GAS. 17/03/2022 ~19:50
+Console.Clear();
+Console.WriteLine("Set first number");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.WriteLine("Set second number");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.WriteLine("Set third number");
+int c = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
 
-Console.WriteLine("Hello, World!");
+int max = a;
+if (max < b) max = b;
+if (max < c) max = c;
+
+Console.WriteLine(max + " is biggest number");
