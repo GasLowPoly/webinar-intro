@@ -2,11 +2,11 @@
 
 Console.Clear();
 Console.WriteLine("Even or uneven? Set number for check!");
-int number = Convert.ToInt32(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
 
-if (number % 2 != 0) Console.Write(number + " is uneven number");
+if (N % 2 != 0) Console.Write(N + " is uneven number");
 else
 {
-    Console.Write(number + " is even number");
+    Console.Write(N + " is even number");
 }
 
