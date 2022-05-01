@@ -20,7 +20,7 @@ void Multiple7and23(int current_number)
         Console.Write(current_number+" can't be devided by 7");
         if (current_number % 23 == 0)
         {
-            Console.Write(", but possible to devide "+current_number+" by 23");
+            Console.Write($", but possible to devide {current_number} by 23"); // $ перед "" позволяет использовать переменные в {}
         }
         else
         {
