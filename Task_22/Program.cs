@@ -4,7 +4,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 for (int i = 1; i <= n; --n)
 {
-    string msg = "______";
-    msg = n+"|"+Math.Pow(n,2);
+    string msg = n+"|"+Math.Pow(n,2);
     Console.WriteLine(msg);
 }
