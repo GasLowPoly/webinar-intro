@@ -2,10 +2,10 @@
 
 Random rand = new Random();
 int[] array = new int[rand.Next(2,11)];
-int length = array.Length;
 
 void FillArrayRandomly(int[] arrayName, int minValue, int maxValue)
 {
+    int length = arrayName.Length;
     Random randFill = new Random();
     for (int i = 0; i < length; i++)
     {
@@ -16,6 +16,7 @@ void FillArrayRandomly(int[] arrayName, int minValue, int maxValue)
 
 void ValueReverse(int[] arrayName)
 {
+    int length = arrayName.Length;
     for (int i = 0; i < length; i++)
     {
         arrayName[i] *= -1;
